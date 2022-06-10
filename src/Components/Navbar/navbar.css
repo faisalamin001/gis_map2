@@ -1,0 +1,39 @@
+nav {
+  background: #0f3d2e;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.notification {
+  font-size: 25px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile img {
+  width: 40px;
+  border-radius: 100%;
+}
+.profile .name {
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+}

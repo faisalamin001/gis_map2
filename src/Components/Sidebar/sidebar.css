@@ -1,0 +1,70 @@
+.side {
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.form input {
+  position: relative;
+  font-size: 18px;
+  width: 250px;
+  padding: 6px;
+  border-radius: 10px;
+  padding-left: 33px;
+  border: none;
+  background: #edeff1;
+  color: #868686;
+  outline: none;
+}
+::placeholder {
+  font-size: 17px;
+  color: #959799;
+}
+
+.side .form .icon {
+  position: absolute;
+  top: 96px;
+  left: 22px;
+  color: #9fa2a5;
+  font-size: 25px;
+  z-index: 3;
+}
+
+.filter {
+  padding: 5px;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter .select {
+  margin-bottom: 11px;
+}
+
+.legend-sec {
+  margin-top: 15px;
+}
+.legends {
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  justify-content: space-around;
+  background: rgba(221, 219, 219, 0.507);
+}
+.leg1 p,
+.leg2 p {
+  margin: 15px 0px;
+  font-size: 14px;
+}
+.leg1 .blu1 {
+  padding: 1px 9px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.leg2 .gre1 {
+  padding: 1px 9px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
